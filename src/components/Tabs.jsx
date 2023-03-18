@@ -1,7 +1,7 @@
 export default function Tabs ({ categories, setCurrentTab, currentTab }) {
   return (
-    <section className='h-[50px] mb-[.5rem] md:mb-[1.5rem] text-[#444]'>
-      <ul className='hidden md:flex h-full'>
+    <section className='h-[50px] mb-[.5rem] md:mb-[1.5rem] text-[#444] relative'>
+      <ul className='hidden md:flex h-full overflow-x-hidden scroll-smooth'>
         {categories?.map((tab, index) => (
           <li key={tab.id} className='w-[calc(100%/6)]'>
             <button 
@@ -12,7 +12,7 @@ export default function Tabs ({ categories, setCurrentTab, currentTab }) {
           </li>
         ))}
       </ul>
-      <select name="tabs" className='md:hidden bg-gray-100 uppercase w-full h-[40px] px-[1rem]'>
+      {/* <select name="tabs" className='md:hidden bg-gray-100 uppercase w-full h-[40px] px-[1rem]'>
         {categories?.map((tab, index) => (
           <option 
             key={tab.id} 
@@ -22,7 +22,7 @@ export default function Tabs ({ categories, setCurrentTab, currentTab }) {
               { tab.title }
           </option>
         ))}
-      </select>
+      </select> */}
     </section>
   )
 }
