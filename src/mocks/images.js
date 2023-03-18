@@ -1,0 +1,136 @@
+const images = [
+  {
+    id: 1,
+    src: "_MG_0012.webp",
+    event: "Haras Maryland 2022",
+    categoryId: 1,
+  },
+  {
+    id: 2,
+    src: "IMG_0895.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 1,
+  },
+  {
+    id: 3,
+    src: "IMG_1397.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 1,
+  },
+  {
+    id: 4,
+    src: "IMG_2936.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 1,
+  },
+  {
+    id: 5,
+    src: "IMG_2942.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 1,
+  },
+  {
+    id: 6,
+    src: "IMG_2993.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 1,
+  },
+  {
+    id: 7,
+    src: "IMG_3467.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 1,
+  },
+  {
+    id: 8,
+    src: "IMG_4340.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 1,
+  },
+  {
+    id: 9,
+    src: "IMG_4393.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 1,
+  },
+  {
+    id: 10,
+    src: "IMG_9911.webp",
+    event: "Ranch Events Haras Argentino 2022",
+    categoryId: 1,
+  },
+  {
+    id: 11,
+    src: "IMG_1561.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 12,
+    src: "IMG_1863.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 13,
+    src: "IMG_1890.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 14,
+    src: "IMG_1908.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 15,
+    src: "IMG_2121.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 16,
+    src: "IMG_2272.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 17,
+    src: "IMG_2496.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 3,
+  },
+  {
+    id: 18,
+    src: "IMG_4459.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 3,
+  },
+  {
+    id: 19,
+    src: "IMG_4557.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 3,
+  },
+  {
+    id: 20,
+    src: "IMG_4635.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 3,
+  },
+  {
+    id: 21,
+    src: "IMG_5331.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 3,
+  },
+  {
+    id: 22,
+    src: "IMG_5341.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 3,
+  },
+];
+
+export default images;
