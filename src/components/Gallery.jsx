@@ -42,8 +42,8 @@ export default function Gallery () {
       <Tabs categories={categories} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       <div className='w-full flex flex-wrap justify-center gap-[.5rem] md:gap-[1rem]'>
         {filteredImages.map((image, index) => (
-          <Suspense fallback={'loading'}>
-            <GalleryItem key={image.id} image={image} onClick={() => handleOpenModal(index)} />
+          <Suspense fallback={'loading'} key={image.id}>
+            <GalleryItem image={image} onClick={() => handleOpenModal(index)} />
           </Suspense>
         ))}
       </div>
