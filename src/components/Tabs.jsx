@@ -19,7 +19,7 @@ export default function Tabs ({ categories, setCurrentTab, currentTab }) {
             value={index} 
             onClick={() => setCurrentTab(index)}
             className='uppercase'>
-              { tab.title }
+              { navigator.language || navigator.userLanguage ? tab.title_en : tab.title }
           </option>
         ))}
       </select>
