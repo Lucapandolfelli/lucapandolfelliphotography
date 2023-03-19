@@ -22,9 +22,16 @@ body {
 }
 
 .footer-logo::before {
-  @apply absolute content-[''] h-[1px] min-w-[150px] w-full bg-[#444] top-1/2 right-[2rem]
+  @apply absolute content-[''] h-[1px] min-w-[150px] w-full bg-[#444] dark:bg-[#f4f4f4] top-1/2 right-[2rem]
 }
 
 .footer-logo::after {
-  @apply absolute content-[''] h-[1px] min-w-[150px] w-full bg-[#444] top-1/2 left-[2rem]
+  @apply absolute content-[''] h-[1px] min-w-[150px] w-full bg-[#444] dark:bg-[#f4f4f4] top-1/2 left-[2rem]
+}
+
+@media (prefers-color-scheme: dark){
+  body {
+    background-color: #141413;
+    color: #f4f4f4;
+  }
 }
