@@ -8,7 +8,7 @@ export default function Footer () {
       </div>
       <div className='text-center'>
         <p className='uppercase text-sm md:text-base mb-[.25rem]'>Copyright &copy; {new Date().getFullYear()} - Luca Pandolfelli Photography</p>
-        <small className='text-[#707070]'>Designed and Developer by <Link to='https://lucapandolfelli.com' target='_blank' className='text-black font-medium'>Luca Pandolfelli</Link></small>
+        <small className='text-[#707070]'>{ navigator.language || navigator.userLanguage === 'en-US' ? 'Designed and Developer by' : 'Diseñada y Desarrollada por' } <Link to='https://lucapandolfelli.com' target='_blank' className='text-black font-medium'>Luca Pandolfelli</Link></small>
       </div>
     </footer>
   )

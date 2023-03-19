@@ -9,7 +9,7 @@ body {
 }
 
 .main-container {
-  width: min(100% - 4rem, 1048px);
+  width: min(100% - 2.5rem, 1048px);
   margin-inline: auto;
 }
 

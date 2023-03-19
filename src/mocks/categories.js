@@ -1,27 +1,33 @@
 const categories = [
   {
     id: 1,
-    title: "All",
+    title: "Todo",
+    title_en: "All",
   },
   {
     id: 2,
-    title: "Details",
+    title: "Detalles",
+    title_en: "Details",
   },
   {
     id: 3,
-    title: "Barrel Racing",
+    title: "Barriles",
+    title_en: "Barrel Racing",
   },
   {
     id: 4,
-    title: "Reining",
+    title: "Rienda",
+    title_en: "Reining",
   },
   {
     id: 5,
     title: "Ranch Events",
+    title_en: "Ranch Events",
   },
   {
     id: 6,
-    title: "Stack Race",
+    title: "Estacas",
+    title_en: "Stack Race",
   },
 ];
 

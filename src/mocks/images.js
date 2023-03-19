@@ -131,6 +131,18 @@ const images = [
     event: "Futurity Benquerencia 2022",
     categoryId: 3,
   },
+  {
+    id: 23,
+    src: "IMG_2768.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 1,
+  },
+  {
+    id: 24,
+    src: "IMG_2696.webp",
+    event: "Acra Haras Argentino 2022",
+    categoryId: 1,
+  },
 ];
 
 export default images;

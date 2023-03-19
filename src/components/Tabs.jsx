@@ -7,12 +7,12 @@ export default function Tabs ({ categories, setCurrentTab, currentTab }) {
             <button 
               onClick={() => setCurrentTab(index)}
               className={ currentTab === index ? 'uppercase bg-gray-300 text-sm w-full h-full flex justify-center items-center' : 'uppercase bg-gray-100 text-sm w-full h-full flex justify-center items-center hover:bg-gray-200'}>
-                { tab.title }
+                { navigator.language || navigator.userLanguage ? tab.title_en : tab.title }
               </button>
           </li>
         ))}
       </ul>
-      {/* <select name="tabs" className='md:hidden bg-gray-100 uppercase w-full h-[40px] px-[1rem]'>
+      <select name="tabs" className='md:hidden bg-gray-100 uppercase w-full h-[40px] px-[1rem]'>
         {categories?.map((tab, index) => (
           <option 
             key={tab.id} 
@@ -22,7 +22,7 @@ export default function Tabs ({ categories, setCurrentTab, currentTab }) {
               { tab.title }
           </option>
         ))}
-      </select> */}
+      </select>
     </section>
   )
 }
