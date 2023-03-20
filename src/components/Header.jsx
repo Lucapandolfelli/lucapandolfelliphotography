@@ -13,7 +13,7 @@ export default function Header () {
           </Link>
           <div className='text-center'>
             <h1 className='md:text-lg uppercase text-[#444] dark:text-[#f4f4f4]'>Luca Pandolfelli Photography</h1>
-            <p className='text-[.75rem] text-[#5a5a5a] dark:text-[#d1d1d1]'>Equine Photographer</p>
+            <p className='text-[.75rem] text-[#5a5a5a] dark:text-[#d1d1d1]'>{ navigator.language || navigator.userLanguage === 'en-US' ? 'Equine Photographer' : 'Fotógrafo Equestre'}</p>
           </div>
         </div>
         {/* <Link to='' target={'_blank'}>

@@ -15,7 +15,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
+header, footer p {
   font-family: 'Glacial Indifference Regular', sans-serif;
   letter-spacing: 2px;
 }
