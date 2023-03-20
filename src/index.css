@@ -4,8 +4,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
+@font-face {
+  font-family: "Glacial Indifference Regular";
+  src: url('../public/fonts/glacial-indifference/GlacialIndifference-Regular.otf');
+  font-style: normal;
+}
+
+
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  font-family: 'Glacial Indifference Regular', sans-serif;
+  letter-spacing: 2px;
 }
 
 .main-container {
