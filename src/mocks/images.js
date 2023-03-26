@@ -143,6 +143,78 @@ const images = [
     event: "Acra Haras Argentino 2022",
     categoryId: 1,
   },
+  {
+    id: 25,
+    src: "IMG_4652.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 2,
+  },
+  {
+    id: 26,
+    src: "IMG_4692.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 2,
+  },
+  {
+    id: 27,
+    src: "IMG_4717.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 2,
+  },
+  {
+    id: 28,
+    src: "IMG_4736.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 2,
+  },
+  {
+    id: 29,
+    src: "IMG_5210.webp",
+    event: "Futurity Benquerencia 2022",
+    categoryId: 2,
+  },
+  {
+    id: 30,
+    src: "IMG_6944.webp",
+    event: "3ra Fecha CNB 2023",
+    categoryId: 2,
+  },
+  {
+    id: 31,
+    src: "IMG_6971.webp",
+    event: "3ra Fecha CNB 2023",
+    categoryId: 2,
+  },
+  {
+    id: 32,
+    src: "IMG_7024.webp",
+    event: "3ra Fecha CNB 2023",
+    categoryId: 2,
+  },
+  {
+    id: 33,
+    src: "IMG_9222.webp",
+    event: "Expo Ganadera 2022",
+    categoryId: 2,
+  },
+  {
+    id: 34,
+    src: "IMG_9224.webp",
+    event: "Expo Ganadera 2022",
+    categoryId: 2,
+  },
+  {
+    id: 35,
+    src: "IMG_9273.webp",
+    event: "Expo Ganadera 2022",
+    categoryId: 2,
+  },
+  {
+    id: 36,
+    src: "IMG_9300.webp",
+    event: "Expo Ganadera 2022",
+    categoryId: 2,
+  },
 ];
 
 export default images;
